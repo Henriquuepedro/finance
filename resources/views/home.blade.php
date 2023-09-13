@@ -284,7 +284,7 @@
                 <div class="card-body">
                     <div class="row d-flex justify-content-between">
                         <button class="btn btn-danger col-sm-5 pt-3 pb-3" data-toggle="modal" data-target="#addValue" data-type="expense"><i class="fa fa-minus"></i> Despesas</button>
-                        <button class="btn btn-success col-sm-5 pt-3 pb-3" data-toggle="modal" data-target="#addValue" data-type="income"><i class="fa fa-plus"></i> Receitas</button>
+{{--                        <button class="btn btn-success col-sm-5 pt-3 pb-3" data-toggle="modal" data-target="#addValue" data-type="income"><i class="fa fa-plus"></i> Receitas</button>--}}
                     </div>
                 </div>
             </div>
@@ -407,8 +407,8 @@
                         <input type="hidden" name="type">
                     </div>
                     <div class="modal-footer d-flex justify-content-between">
-                        <button type="button" class="btn btn-secondary col-sm-5" data-dismiss="modal">Fechar</button>
                         <button type="submit" class="btn btn-primary col-sm-5">Salvar</button>
+                        <button type="button" class="btn btn-secondary col-sm-5" data-dismiss="modal">Fechar</button>
                     </div>
                 </form>
             </div>
